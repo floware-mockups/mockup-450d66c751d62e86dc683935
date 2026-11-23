@@ -130,56 +130,66 @@
     },
     {
       "id": "scadenze-controlli",
-      "title": "Scadenze e controlli",
-      "description": "Controlla termini di presentazione, codici dei dispositivi, modifiche dei nominativi e vigenza della normativa.",
+      "title": "Report ricorsi al Giudice di pace",
+      "description": "Riepilogo dimostrativo dei ricorsi, delle udienze e degli esiti.",
       "metrics": [
         {
-          "label": "Scadenze entro 7 giorni",
-          "value": "3"
+          "label": "Ricorsi esaminati",
+          "value": "4"
         },
         {
-          "label": "Normative da verificare",
+          "label": "In trattazione",
           "value": "2"
+        },
+        {
+          "label": "Accolti",
+          "value": "1"
+        },
+        {
+          "label": "Rigettati",
+          "value": "1"
         }
       ],
       "columns": [
         "Pratica",
-        "Tipo",
-        "Data",
-        "Stato",
-        "Data udienza"
+        "Motivo del ricorso",
+        "Data udienza",
+        "Esito",
+        "Importo sanzione"
       ],
       "rows": [
         [
           "R-26021",
-          "Termine risposta",
+          "Mancata segnalazione",
           "21/06/2026",
-          "In scadenza",
-          "26/06/2026"
+          "Rigettato",
+          "€ 86,00"
         ],
         [
           "R-26024",
-          "Codice dispositivo",
+          "Segnaletica non visibile",
           "22/06/2026",
-          "Da verificare",
-          "30/06/2026"
+          "Accolto",
+          "€ 54,00"
         ],
         [
           "R-26031",
-          "Normativa applicabile",
+          "Contestazione del dispositivo",
           "23/06/2026",
-          "Verifica vigenza",
-          "02/07/2026"
+          "In trattazione",
+          "€ 112,00"
         ],
         [
           "R-26034",
-          "Modifica nominativo",
+          "Vizio di notifica",
           "25/06/2026",
-          "Confronto date",
-          "06/07/2026"
+          "In trattazione",
+          "€ 72,00"
         ]
       ],
-      "form": []
+      "form": [],
+      "statusColumn": 3,
+      "chartColumn": 3
     },
     {
       "id": "risposte-ricorsi",
