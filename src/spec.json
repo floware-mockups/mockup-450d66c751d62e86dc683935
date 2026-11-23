@@ -28,43 +28,38 @@
       "columns": [
         "Pratica",
         "Tipo",
-        "Zona",
-        "Agente",
         "Data",
-        "Stato"
+        "Stato",
+        "Data udienza"
       ],
       "rows": [
         [
           "R-26018",
           "Ricorso",
-          "Borgo Lumo",
-          "Agente Nubi-7",
           "12/06/2026",
-          "In trattazione"
+          "In trattazione",
+          "24/06/2026"
         ],
         [
           "R-26021",
           "Ricorso",
-          "Viale Vela",
-          "Agente Sera-3",
           "14/06/2026",
-          "Scadenza vicina"
+          "Scadenza vicina",
+          "26/06/2026"
         ],
         [
           "R-26024",
           "Ricorso",
-          "Piazza Nubi",
-          "Agente Lumo-5",
           "16/06/2026",
-          "Controllo atti"
+          "Controllo atti",
+          "30/06/2026"
         ],
         [
           "R-26027",
           "Ricorso",
-          "Borgo Lumo",
-          "Agente Vela-2",
           "18/06/2026",
-          "In trattazione"
+          "In trattazione",
+          "02/07/2026"
         ]
       ],
       "form": []
@@ -77,68 +72,60 @@
       "columns": [
         "Pratica",
         "Tipo",
-        "Zona",
-        "Agente",
         "Data",
-        "Stato"
+        "Stato",
+        "Data udienza"
       ],
       "rows": [
         [
           "R-26018",
           "Ricorso",
-          "Borgo Lumo",
-          "Agente Nubi-7",
           "12/06/2026",
-          "In trattazione"
+          "In trattazione",
+          "24/06/2026"
         ],
         [
           "R-26021",
           "Ricorso",
-          "Viale Vela",
-          "Agente Sera-3",
           "14/06/2026",
-          "Scadenza vicina"
+          "Scadenza vicina",
+          "26/06/2026"
         ],
         [
           "R-26024",
           "Ricorso",
-          "Piazza Nubi",
-          "Agente Lumo-5",
           "16/06/2026",
-          "Controllo atti"
+          "Controllo atti",
+          "30/06/2026"
         ],
         [
           "R-26027",
           "Ricorso",
-          "Borgo Lumo",
-          "Agente Vela-2",
           "18/06/2026",
-          "In trattazione"
+          "In trattazione",
+          "02/07/2026"
         ],
         [
           "R-26031",
           "Ricorso",
-          "Viale Vela",
-          "Agente Nubi-7",
           "20/06/2026",
-          "Risposta predisposta"
+          "Risposta predisposta",
+          "06/07/2026"
         ],
         [
           "R-26034",
           "Ricorso",
-          "Piazza Nubi",
-          "Agente Sera-3",
           "21/06/2026",
-          "Atti da integrare"
+          "Atti da integrare",
+          "08/07/2026"
         ]
       ],
       "form": [
         "Pratica",
         "Tipo",
-        "Zona",
-        "Agente",
         "Data",
-        "Stato"
+        "Stato",
+        "Data udienza"
       ]
     },
     {
@@ -158,43 +145,38 @@
       "columns": [
         "Pratica",
         "Tipo",
-        "Zona",
-        "Agente",
         "Data",
-        "Stato"
+        "Stato",
+        "Data udienza"
       ],
       "rows": [
         [
           "R-26021",
           "Termine risposta",
-          "Viale Vela",
-          "Agente Sera-3",
           "21/06/2026",
-          "In scadenza"
+          "In scadenza",
+          "26/06/2026"
         ],
         [
           "R-26024",
           "Codice dispositivo",
-          "Piazza Nubi",
-          "Agente Lumo-5",
           "22/06/2026",
-          "Da verificare"
+          "Da verificare",
+          "30/06/2026"
         ],
         [
           "R-26031",
           "Normativa applicabile",
-          "Viale Vela",
-          "Agente Nubi-7",
           "23/06/2026",
-          "Verifica vigenza"
+          "Verifica vigenza",
+          "02/07/2026"
         ],
         [
           "R-26034",
           "Modifica nominativo",
-          "Piazza Nubi",
-          "Agente Sera-3",
           "25/06/2026",
-          "Confronto date"
+          "Confronto date",
+          "06/07/2026"
         ]
       ],
       "form": []
@@ -207,35 +189,31 @@
       "columns": [
         "Pratica",
         "Tipo",
-        "Zona",
-        "Agente",
         "Data",
-        "Stato"
+        "Stato",
+        "Data udienza"
       ],
       "rows": [
         [
           "R-26018",
           "Bozza risposta",
-          "Borgo Lumo",
-          "Agente Nubi-7",
           "12/06/2026",
-          "Bozza pronta"
+          "Bozza pronta",
+          "24/06/2026"
         ],
         [
           "R-26021",
           "Bozza risposta",
-          "Viale Vela",
-          "Agente Sera-3",
           "14/06/2026",
-          "Atti da verificare"
+          "Atti da verificare",
+          "26/06/2026"
         ],
         [
           "R-26027",
           "Bozza risposta",
-          "Borgo Lumo",
-          "Agente Vela-2",
           "18/06/2026",
-          "In preparazione"
+          "In preparazione",
+          "02/07/2026"
         ]
       ],
       "form": []
@@ -244,5 +222,23 @@
   "theme": {
     "palette": "blu-notte",
     "fonts": "istituzionale"
-  }
+  },
+  "custom": [
+    {
+      "name": "UdienzaQuadro",
+      "title": "Ricorsi e udienze imminenti",
+      "description": "Riepilogo con righe evidenziate per le udienze entro sette giorni.",
+      "role": "section",
+      "pageId": "dashboard",
+      "position": "top"
+    },
+    {
+      "name": "UdienzaRegistro",
+      "title": "Ricorsi e udienze imminenti",
+      "description": "Riepilogo con righe evidenziate per le udienze entro sette giorni.",
+      "role": "section",
+      "pageId": "registro-ricorsi",
+      "position": "top"
+    }
+  ]
 }
