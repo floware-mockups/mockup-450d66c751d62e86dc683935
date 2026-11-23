@@ -66,7 +66,7 @@
     },
     {
       "id": "registro-ricorsi",
-      "title": "Registro ricorsi",
+      "title": "registro ricorsi PREFETTURA",
       "description": "Cerca e filtra le pratiche per stato. Verifica i dati del verbale prima di predisporre la risposta.",
       "metrics": [],
       "columns": [
@@ -74,7 +74,7 @@
         "Tipo",
         "Data",
         "Stato",
-        "Data udienza"
+        "Scadenza controdeduzioni"
       ],
       "rows": [
         [
@@ -125,12 +125,12 @@
         "Tipo",
         "Data",
         "Stato",
-        "Data udienza"
+        "Scadenza controdeduzioni"
       ]
     },
     {
       "id": "scadenze-controlli",
-      "title": "Report ricorsi al Giudice di pace",
+      "title": "Registro ricorsi G.D.P.",
       "description": "Riepilogo dimostrativo dei ricorsi, delle udienze e degli esiti.",
       "metrics": [
         {
