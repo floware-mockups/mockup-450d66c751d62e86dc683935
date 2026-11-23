@@ -234,138 +234,57 @@
       ],
       "rows": [
         [
-          "Pubblicazione del Piano integrato di attività e organizzazione",
-          "+3",
-          "Segreteria",
-          "Bianchi",
-          "articolo 6 del decreto-legge 9 giugno 2021, n. 80",
-          "ogni anno",
-          "—"
-        ],
-        [
-          "Relazione annuale del Responsabile della prevenzione della corruzione",
-          "-2",
-          "Segreteria",
-          "Bianchi",
-          "articolo 1, comma 14, della legge 6 novembre 2012, n. 190",
-          "ogni anno",
-          "—"
-        ],
-        [
-          "Approvazione del rendiconto",
-          "+12",
-          "Ragioneria",
-          "Verdi",
-          "articolo 227 del decreto legislativo 18 agosto 2000, n. 267",
-          "ogni anno",
-          "—"
-        ],
-        [
-          "Verifica degli equilibri di bilancio",
+          "Verifica dei veicoli di servizio",
           "+5",
-          "Ragioneria",
-          "Verdi",
-          "articolo 193 del decreto legislativo 18 agosto 2000, n. 267",
+          "Polizia Locale",
+          "Rossi",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Taratura degli strumenti di rilevazione",
+          "+12",
+          "Polizia Locale",
+          "Neri",
+          "—",
           "ogni anno",
           "—"
         ],
         [
-          "Certificazione dei crediti sulla piattaforma",
-          "+20",
-          "Ragioneria",
-          "Neri",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Aggiornamento della sezione Amministrazione trasparente",
-          "+6",
-          "Segreteria",
-          "Gallo",
-          "decreto legislativo 14 marzo 2013, n. 33",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Invio del conto annuale del personale",
-          "+45",
-          "Personale",
-          "Rizzi",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Piano delle ferie del personale",
-          "+28",
-          "Personale",
-          "Rizzi",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Rinnovo della convenzione per la mensa scolastica",
-          "+60",
-          "Servizi sociali",
-          "Conti",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Censimento delle autorizzazioni paesaggistiche",
-          "+90",
-          "Tecnico",
-          "Marino",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Verifica degli impianti antincendio delle scuole",
-          "+15",
-          "Tecnico",
-          "Marino",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Relazione sulla performance",
-          "+38",
-          "Segreteria",
+          "Controllo delle dotazioni di sicurezza",
+          "+18",
+          "Polizia Locale",
           "Bianchi",
-          "articolo 10 del decreto legislativo 27 ottobre 2009, n. 150",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Rinnovo delle autorizzazioni per i servizi di pattuglia",
+          "+25",
+          "Polizia Locale",
+          "Verdi",
+          "—",
           "ogni anno",
           "—"
         ],
         [
-          "Comunicazione dei dati delle gare",
-          "+2",
-          "Ragioneria",
+          "Verifica dei dispositivi di comunicazione",
+          "+32",
+          "Polizia Locale",
+          "Rossi",
+          "—",
+          "nessuna",
+          "—"
+        ],
+        [
+          "Aggiornamento del piano dei servizi di vigilanza",
+          "+40",
+          "Polizia Locale",
           "Neri",
           "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Revisione dell'albo dei presidenti di seggio",
-          "+75",
-          "Demografici",
-          "Ferri",
-          "—",
-          "nessuna",
-          "—"
-        ],
-        [
-          "Aggiornamento del registro dei trattamenti dei dati",
-          "+33",
-          "Segreteria",
-          "Gallo",
-          "—",
-          "nessuna",
+          "ogni anno",
           "—"
         ]
       ],
@@ -378,7 +297,8 @@
         "ownerColumn": 3,
         "normColumn": 4,
         "recurrenceColumn": 5,
-        "completedColumn": 6
+        "completedColumn": 6,
+        "redBelow": 10
       }
     }
   ],
@@ -388,19 +308,19 @@
   },
   "custom": [
     {
-      "name": "UdienzaQuadro",
-      "title": "Ricorsi e udienze imminenti",
-      "description": "Riepilogo con righe evidenziate per le udienze entro sette giorni.",
-      "role": "section",
-      "pageId": "dashboard",
-      "position": "top"
-    },
-    {
       "name": "UdienzaRegistro",
       "title": "Ricorsi e udienze imminenti",
       "description": "Riepilogo con righe evidenziate per le udienze entro sette giorni.",
       "role": "section",
       "pageId": "registro-ricorsi",
+      "position": "top"
+    },
+    {
+      "name": "UdienzaQuadro",
+      "title": "Calendario delle udienze",
+      "description": "Calendario mensile con evidenza delle udienze entro cinque giorni dalla data corrente.",
+      "role": "section",
+      "pageId": "dashboard",
       "position": "top"
     }
   ]
