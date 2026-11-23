@@ -1,0 +1,248 @@
+{
+  "title": "Gestione ricorsi e scadenze",
+  "description": "Registro per raccogliere gli atti, verificare i dati dei dispositivi e preparare risposte ai ricorsi. Le scadenze e i controlli sono visibili per ogni pratica.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Quadro ricorsi",
+      "description": "Ricorsi in trattazione, verbali più contestati e scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Ricorsi in trattazione",
+          "value": "8"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "3"
+        },
+        {
+          "label": "Controlli da fare",
+          "value": "4"
+        },
+        {
+          "label": "Verbali più contestati",
+          "value": "Vela-42 · 5 ricorsi"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "R-26018",
+          "Ricorso",
+          "Borgo Lumo",
+          "Agente Nubi-7",
+          "12/06/2026",
+          "In trattazione"
+        ],
+        [
+          "R-26021",
+          "Ricorso",
+          "Viale Vela",
+          "Agente Sera-3",
+          "14/06/2026",
+          "Scadenza vicina"
+        ],
+        [
+          "R-26024",
+          "Ricorso",
+          "Piazza Nubi",
+          "Agente Lumo-5",
+          "16/06/2026",
+          "Controllo atti"
+        ],
+        [
+          "R-26027",
+          "Ricorso",
+          "Borgo Lumo",
+          "Agente Vela-2",
+          "18/06/2026",
+          "In trattazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-ricorsi",
+      "title": "Registro ricorsi",
+      "description": "Cerca e filtra le pratiche per stato. Verifica i dati del verbale prima di predisporre la risposta.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "R-26018",
+          "Ricorso",
+          "Borgo Lumo",
+          "Agente Nubi-7",
+          "12/06/2026",
+          "In trattazione"
+        ],
+        [
+          "R-26021",
+          "Ricorso",
+          "Viale Vela",
+          "Agente Sera-3",
+          "14/06/2026",
+          "Scadenza vicina"
+        ],
+        [
+          "R-26024",
+          "Ricorso",
+          "Piazza Nubi",
+          "Agente Lumo-5",
+          "16/06/2026",
+          "Controllo atti"
+        ],
+        [
+          "R-26027",
+          "Ricorso",
+          "Borgo Lumo",
+          "Agente Vela-2",
+          "18/06/2026",
+          "In trattazione"
+        ],
+        [
+          "R-26031",
+          "Ricorso",
+          "Viale Vela",
+          "Agente Nubi-7",
+          "20/06/2026",
+          "Risposta predisposta"
+        ],
+        [
+          "R-26034",
+          "Ricorso",
+          "Piazza Nubi",
+          "Agente Sera-3",
+          "21/06/2026",
+          "Atti da integrare"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ]
+    },
+    {
+      "id": "scadenze-controlli",
+      "title": "Scadenze e controlli",
+      "description": "Controlla termini di presentazione, codici dei dispositivi, modifiche dei nominativi e vigenza della normativa.",
+      "metrics": [
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "3"
+        },
+        {
+          "label": "Normative da verificare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "R-26021",
+          "Termine risposta",
+          "Viale Vela",
+          "Agente Sera-3",
+          "21/06/2026",
+          "In scadenza"
+        ],
+        [
+          "R-26024",
+          "Codice dispositivo",
+          "Piazza Nubi",
+          "Agente Lumo-5",
+          "22/06/2026",
+          "Da verificare"
+        ],
+        [
+          "R-26031",
+          "Normativa applicabile",
+          "Viale Vela",
+          "Agente Nubi-7",
+          "23/06/2026",
+          "Verifica vigenza"
+        ],
+        [
+          "R-26034",
+          "Modifica nominativo",
+          "Piazza Nubi",
+          "Agente Sera-3",
+          "25/06/2026",
+          "Confronto date"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "risposte-ricorsi",
+      "title": "Risposte ai ricorsi",
+      "description": "Consulta gli atti raccolti e prepara una bozza testuale. Esporta l'elenco delle scadenze in formato tabellare.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "R-26018",
+          "Bozza risposta",
+          "Borgo Lumo",
+          "Agente Nubi-7",
+          "12/06/2026",
+          "Bozza pronta"
+        ],
+        [
+          "R-26021",
+          "Bozza risposta",
+          "Viale Vela",
+          "Agente Sera-3",
+          "14/06/2026",
+          "Atti da verificare"
+        ],
+        [
+          "R-26027",
+          "Bozza risposta",
+          "Borgo Lumo",
+          "Agente Vela-2",
+          "18/06/2026",
+          "In preparazione"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "blu-notte",
+    "fonts": "istituzionale"
+  }
+}
